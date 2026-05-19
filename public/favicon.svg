@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <rect width="30" height="30" rx="7" fill="#E8803A"/>
+  <text
+    x="15"
+    y="20.5"
+    text-anchor="middle"
+    fill="white"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700"
+    font-size="13"
+    letter-spacing="-0.3"
+  >SK</text>
+</svg>

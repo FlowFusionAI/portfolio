@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { motion, useScroll } from "framer-motion"
+import Logo from "@/components/Logo"
 
 export default function Nav() {
   const [hidden, setHidden] = useState(false)
@@ -24,7 +25,7 @@ export default function Nav() {
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-serif text-lg font-medium text-ink">Saurav KC</span>
+          <Logo />
           <a
             href="/saurav-kc-cv.pdf"
             download

@@ -14,12 +14,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Saurav KC | Automation Engineer",
+  title: "Saurav KC | Full Stack Engineer",
   description:
-    "CS graduate and automation engineer based in London. Built a full-stack ATS that processed 350+ applicants and saved 15-20 hours/week. Open to Automation, RevOps, Solutions Engineering, and Junior SWE roles.",
+    "CS graduate and full-stack engineer based in London. Built a production-grade onboarding platform on Next.js 15 + TypeScript that processed 350+ applicants and saved 15-20 hours/week. Open to Software Engineer, Automation, RevOps, and Solutions Engineering roles.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
-    title: "Saurav KC | Automation Engineer",
-    description: "Full-stack ATS. 350+ applicants. 15–20 hrs/week saved. Based in London.",
+    title: "Saurav KC | Full Stack Engineer",
+    description: "Full-stack ATS. 350+ applicants. 15-20 hrs/week saved. Based in London.",
     url: "https://sauravkc.dev",
   },
 }
