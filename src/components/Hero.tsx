@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-accent text-sm font-sans uppercase tracking-[0.08em] font-medium mb-6"
         >
-          AUTOMATION ENGINEER · LONDON
+          FULL-STACK ENGINEER · OPEN TO WORK · LONDON
         </motion.p>
 
         <motion.h1
@@ -29,9 +29,9 @@ export default function Hero() {
           className="font-serif font-bold text-ink leading-tight tracking-[-0.02em] mb-6"
           style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
         >
-          I build automation systems
+          I build full-stack systems
           <br className="hidden sm:block" />
-          {" "}that actually get used.
+          {" "}that replace broken workflows.
         </motion.h1>
 
         <motion.p
@@ -41,8 +41,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-muted text-lg leading-[1.6] max-w-xl mb-10 font-sans"
         >
-          CS graduate. Solo client delivery. Flagship: a full-stack ATS that
-          processed 350+ applicants and saved a clinic 15–20 hours every week.
+          CS graduate (Portsmouth, 2023). I architect the schema, write the API,
+          build the frontend, and deploy it. Flagship: a production-grade platform on
+          Next.js 15 + TypeScript that processed 350+ applicants and cut 15–20 hrs/week
+          of manual work.
         </motion.p>
 
         <motion.div
@@ -53,10 +55,11 @@ export default function Hero() {
           className="flex flex-wrap gap-4"
         >
           <a
-            href="mailto:sauravkc@flowfusionai.com"
+            href="/saurav-kc-cv.pdf"
+            download
             className="bg-accent text-white px-7 py-3 rounded-full font-medium text-base hover:opacity-90 transition-opacity font-sans"
           >
-            Email me
+            Download CV
           </a>
           <a
             href="https://www.linkedin.com/in/saurav-kc-045083200/"

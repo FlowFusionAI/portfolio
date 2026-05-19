@@ -14,11 +14,11 @@ export default function Narrative() {
           className="font-serif font-bold text-ink mb-8 leading-tight"
           style={{ fontSize: "clamp(1.8rem, 3vw, 2.8rem)" }}
         >
-          Most automation consultants connect tools.
+          I don&apos;t hand off halfway through.
           <br />
           I{" "}
           <strong className="underline decoration-accent decoration-2">
-            build the system underneath.
+            own the whole build.
           </strong>
         </motion.h2>
 
@@ -30,14 +30,15 @@ export default function Narrative() {
           className="space-y-4 text-muted leading-[1.6] font-sans text-base"
         >
           <p>
-            Businesses usually come to me with a mess: spreadsheets held together
-            by manual work, tools that don&apos;t talk to each other, and a team
-            copying data between tabs all day. I scope the real problem, design
-            the system, and ship it.
+            Most teams have the tools already — they&apos;re missing someone who
+            can connect them without leaving gaps. I come in at the architecture
+            stage: data schema, API routes, auth layer, frontend, integrations,
+            and deployment. One person, first commit to handover.
           </p>
           <p>
-            I work end-to-end — product thinking, technical build, client
-            handover. No handoffs. No &quot;that&apos;s someone else&apos;s job.&quot;
+            CS degree gave me the foundation. Solo client delivery gave me the
+            scar tissue. I&apos;m looking to bring that into a team — not pitch
+            another client.
           </p>
         </motion.div>
       </div>

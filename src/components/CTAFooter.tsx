@@ -14,7 +14,7 @@ export default function CTAFooter() {
           className="font-serif font-bold text-ink mb-6 leading-tight"
           style={{ fontSize: "clamp(2.2rem, 4vw, 3.5rem)" }}
         >
-          Ready to hire someone who ships?
+          Looking for a role where I can build.
         </motion.h2>
 
         <motion.p
@@ -24,8 +24,9 @@ export default function CTAFooter() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-muted max-w-lg mx-auto mb-10 leading-[1.6] font-sans"
         >
-          I&apos;m looking for full-time, office-based roles in London. Automation
-          Engineer, RevOps, Solutions Engineer, Technical Implementation, or Junior SWE.
+          Open to full-time roles in London — Software Engineer, Automation
+          Engineer, RevOps, or Solutions Engineering. CS degree, production
+          delivery, no sponsorship needed.
         </motion.p>
 
         <motion.div
@@ -36,10 +37,11 @@ export default function CTAFooter() {
           className="flex flex-wrap justify-center gap-4 mb-4"
         >
           <a
-            href="mailto:sauravkc@flowfusionai.com"
+            href="/saurav-kc-cv.pdf"
+            download
             className="bg-accent text-white px-8 py-3 rounded-full font-medium text-base hover:opacity-90 transition-opacity font-sans"
           >
-            Email me →
+            Download CV
           </a>
           <a
             href="https://www.linkedin.com/in/saurav-kc-045083200/"
@@ -63,7 +65,7 @@ export default function CTAFooter() {
             github.com/FlowFusionAI
           </a>
           <span aria-hidden>·</span>
-          <span>Reading, UK</span>
+          <span>London, UK</span>
           <span aria-hidden>·</span>
           <span>No sponsorship needed</span>
         </div>

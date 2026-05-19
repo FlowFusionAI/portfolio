@@ -26,10 +26,11 @@ export default function Nav() {
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <span className="font-serif text-lg font-medium text-ink">Saurav KC</span>
           <a
-            href="mailto:sauravkc@flowfusionai.com"
+            href="/saurav-kc-cv.pdf"
+            download
             className="hidden md:inline-block bg-accent text-white px-5 py-2.5 rounded-full text-sm font-medium font-sans hover:opacity-90 transition-opacity"
           >
-            Get in touch →
+            Download CV
           </a>
           <button
             className="md:hidden flex flex-col gap-1.5 p-1"
@@ -57,11 +58,12 @@ export default function Nav() {
             ×
           </button>
           <a
-            href="mailto:sauravkc@flowfusionai.com"
+            href="/saurav-kc-cv.pdf"
+            download
             className="bg-accent text-white px-8 py-3 rounded-full text-lg font-medium font-sans"
             onClick={() => setMenuOpen(false)}
           >
-            Email me →
+            Download CV
           </a>
           <a
             href="https://www.linkedin.com/in/saurav-kc-045083200/"
