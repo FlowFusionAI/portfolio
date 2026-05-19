@@ -3,17 +3,17 @@
 import { motion } from "framer-motion"
 
 const engineeringTools = [
-  { name: "Next.js",    use: "Full-stack React framework — ATS frontend, admin dashboard, API routes (App Router)" },
+  { name: "Next.js",    use: "Full-stack React framework. ATS frontend, admin dashboard, API routes (App Router)" },
   { name: "TypeScript", use: "Type-safe JavaScript across all production code; Zod schemas for input validation" },
-  { name: "Python",     use: "Flask, Selenium, BeautifulSoup — final-year price comparison web scraper" },
+  { name: "Python",     use: "Flask, Selenium, BeautifulSoup. Final-year price comparison web scraper" },
   { name: "Vercel",     use: "Deployment + auto-deploy from main, edge-optimised CDN, preview environments" },
 ]
 
 const automationTools = [
-  { name: "Make.com",   use: "7 automation scenarios — intake webhook, hire trigger, Cal.com scheduling, Gmail/Slack routing" },
-  { name: "Airtable",   use: "Multi-table database layer — 7 tables: applicants, tasks, staff, quizzes, reviews, notifications, audit log" },
+  { name: "Make.com",   use: "7 automation scenarios: intake webhook, hire trigger, Cal.com scheduling, Gmail/Slack routing" },
+  { name: "Airtable",   use: "Multi-table database layer. 7 tables: applicants, tasks, staff, quizzes, reviews, notifications, audit log" },
   { name: "n8n",        use: "Self-hosted workflow automation for complex multi-step pipelines" },
-  { name: "AI / LLMs",  use: "Claude, OpenAI — integrating AI into automation and workflow pipelines" },
+  { name: "AI / LLMs",  use: "Claude, OpenAI. Integrating AI into automation and workflow pipelines" },
 ]
 
 function ToolCard({ tool, index }: { tool: { name: string; use: string }; index: number }) {
@@ -61,7 +61,7 @@ export default function Stack() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-muted mb-10 font-sans"
         >
-          Tools I&apos;ve shipped production code with — not tutorials.
+          Tools I&apos;ve shipped production code with. Not tutorials.
         </motion.p>
 
         <p className="text-xs uppercase tracking-[0.08em] text-muted font-sans mb-3">Engineering</p>

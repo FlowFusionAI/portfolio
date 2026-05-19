@@ -82,7 +82,7 @@ function SystemDiagram() {
 
       <LayerConnector />
 
-      <DiagramSection label="Automation Engine — Make.com · 7 Scenarios">
+      <DiagramSection label="Automation Engine · Make.com · 7 Scenarios">
         <DiagramNode label="New Application" index={3} />
         <DiagramNode label="Hire Trigger" index={4} />
         <DiagramNode label="Task Assignment" index={5} />
@@ -218,12 +218,12 @@ export default function CaseStudy() {
                 View the repository on GitHub →
               </a>
               <p className="text-muted text-xs uppercase tracking-[0.08em] font-sans">
-                Solo delivery — scoped, built, security-audited, shipped.
+                Solo delivery: scoped, built, security-audited, shipped.
               </p>
             </div>
           </motion.div>
 
-          {/* Right: system diagram — desktop only */}
+          {/* Right: system diagram, desktop only */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}

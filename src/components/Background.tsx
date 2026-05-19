@@ -29,12 +29,12 @@ export default function Background() {
           <p>
             BSc Computer Science, University of Portsmouth (2020–2023). Final year
             project: a price comparison web scraper using Flask, Selenium, and
-            BeautifulSoup — which is where the habit of building end-to-end systems started.
+            BeautifulSoup, which is where the habit of building end-to-end systems started.
           </p>
           <p>
             Since November 2024 I&apos;ve been running Flow Fusion AI, delivering bespoke
             automation systems for business clients. Smile Cliniq is the flagship
-            engagement — scoped, built, and shipped solo.
+            engagement: scoped, built, and shipped solo.
           </p>
         </motion.div>
 
