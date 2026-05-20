@@ -30,10 +30,10 @@ export default function Narrative() {
           className="space-y-4 text-muted leading-[1.6] font-sans text-base"
         >
           <p>
-            Most teams have the tools already. They&apos;re missing someone who
-            can connect them without leaving gaps. I come in at the architecture
-            stage: data schema, API routes, auth layer, frontend, integrations,
-            and deployment. One person, first commit to handover.
+            Most businesses already have the tools. They&apos;re missing someone
+            who can connect them without leaving gaps. I come in at the
+            architecture stage: map the process, design the data model, build
+            the integrations, and hand it over working and documented.
           </p>
           <p>
             CS degree gave me the foundation. Solo client delivery gave me the

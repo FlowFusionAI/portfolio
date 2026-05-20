@@ -136,7 +136,7 @@ const features = [
   },
   {
     title: "Auth, Sessions & RBAC",
-    body: "iron-session (encrypted cookies, 8 hr TTL) · bcryptjs. Three roles (admin/manager/new hire) enforced at middleware and route level. Single-use JWT nonces for password reset and admin invite flows.",
+    body: "Role-based access control for three user types (admin, manager, new hire). Secure login with session management and self-serve password reset — no IT involvement needed.",
   },
   {
     title: "Automation Engine",

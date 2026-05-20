@@ -12,13 +12,20 @@ export default function Testimonial() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <span
-            className="block font-serif font-bold text-accent leading-none mb-6 select-none"
-            style={{ fontSize: "clamp(4rem, 10vw, 6rem)" }}
-            aria-hidden
-          >
-            &ldquo;
-          </span>
+          <div className="flex justify-center gap-1 leading-none mb-6 select-none" aria-hidden>
+            <span
+              className="font-serif font-bold text-accent"
+              style={{ fontSize: "clamp(4rem, 10vw, 6rem)" }}
+            >
+              &ldquo;
+            </span>
+            <span
+              className="font-serif font-bold text-accent"
+              style={{ fontSize: "clamp(4rem, 10vw, 6rem)" }}
+            >
+              &rdquo;
+            </span>
+          </div>
 
           <blockquote
             className="font-serif text-ink leading-[1.6] mb-8"

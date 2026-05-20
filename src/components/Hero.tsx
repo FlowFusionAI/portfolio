@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-accent text-sm font-sans uppercase tracking-[0.08em] font-medium mb-6"
         >
-          FULL-STACK ENGINEER · OPEN TO WORK · LONDON
+          AUTOMATION ENGINEER · SOLUTIONS ENGINEER · LONDON
         </motion.p>
 
         <motion.h1
@@ -41,10 +41,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-muted text-lg leading-[1.6] max-w-xl mb-10 font-sans"
         >
-          CS graduate (Portsmouth, 2023). I architect the schema, write the API,
-          build the frontend, and deploy it. Flagship: a production-grade platform on
-          Next.js 15 + TypeScript that processed 350+ applicants and cut 15–20 hrs/week
-          of manual work.
+          CS graduate (Portsmouth, 2023). I map the broken process, design the
+          system, and ship it end-to-end. Flagship: an operations platform that
+          consolidated a 350+ applicant hiring pipeline and saved a London clinic
+          15–20 hrs/week.
         </motion.p>
 
         <motion.div

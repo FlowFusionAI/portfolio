@@ -24,9 +24,9 @@ export default function CTAFooter() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-muted max-w-lg mx-auto mb-10 leading-[1.6] font-sans"
         >
-          Open to full-time roles in London: Software Engineer, Automation
-          Engineer, RevOps, or Solutions Engineering. CS degree, production
-          delivery, no sponsorship needed.
+          Open to full-time roles in London: Automation Engineer, Solutions
+          Engineer, RevOps Engineer, or Technical Implementation. CS degree,
+          production delivery, no sponsorship needed.
         </motion.p>
 
         <motion.div
